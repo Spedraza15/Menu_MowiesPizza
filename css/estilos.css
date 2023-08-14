@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;300;400;700&family=Space+Mono:wght@400;700&display=swap');
+
+
+:root {
+    --padding-container: 50px 0;
+    --color-title: #001A49;    
+}
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+   
+}
+
+/* Media Querys */
+
+
+
+.hero{
+    width: 100%;
+    color: #000;
+    padding: 30px 16px;
+    height: 30px;
+    background: rgba(75, 253, 238, 0.76)
+    
+
+    
+    
+}
+
+div{
+    display: block;
+}
+
+/* Nav */
+
+.row {
+    padding: 0 20px
+}
+
+.nav{
+    --padding-container:0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__items {
+    
+    list-style: none;
+
+
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__logo{
+    display: flex;
+}
+
+.nav__items {
+    padding: 0 10px;
+
+}
+.nav__links {
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+
+ul {
+    --padding-container:0;
+
+    height: 100%;
+}
+
+
+/*Body*/
+
+
+
+.main{
+    
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+table{
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table td{
+    border-top: 1px solid #dee2e6 ;
+    vertical-align: top;
+}
+
+.PhotoFood{
+    max-width: 300px;
+    margin-right: 60px;
+}
+.media {
+    display: flex;
+}
+
+.item__container {
+    display: flex;
+    padding: 0 ;
+}
+
+.title__categoria {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav__item {
+    margin-bottom: 1.5rem;
+}
+
+.Price {
+    text-align: center;
+}
+
+.product{
+    
+    padding: 0.3rem;
+}
+
+.menu__items{
+    border: 3.2px dashed #efefef;
+    margin: 30px auto;
+    border-top: 3.2px solid rgba(231, 226, 101, 0.8) ;
+    
+   
+}
+
+.menu__item {
+    margin-bottom: 1.5rem ; 
+    display: flex;
+}
+
+.p{
+    line-height: 1.5;
+
+}
+
+.menu__producto{
+    display: flex;
+}
+
+.adicionales {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: #fff;
+    background-color: red;
+    position: relative;
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.card__body {
+    padding: 1.25rem;
+}
+
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 800px) {
+
+    .media {
+        margin: 10px auto;
+    }
+    
+
+    .content {
+        margin: 0 auto;
+    }
+
+    .PhotoFood {
+        
+        margin: 10px;
+    }
+
+    .menu__producto{
+        display: block;
+    }
+    
+}
